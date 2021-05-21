@@ -1,0 +1,26 @@
+/* CSS Grid */
+
+.cover-whole-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.position-in-center-of-the-grid {
+  /* align-items: center;
+  justify-content: center; */
+  place-items: center;
+}
+.hide-item {
+  transform: translateX(-100%);
+}
+.position-current-itemS-in-the-center {
+  justify-self: center;
+}
+.change-position-of-1item-in-the-grid {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
